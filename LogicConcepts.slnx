@@ -1,3 +1,5 @@
 <Solution>
   <Project Path="LogicConcepts/LogicConcepts.csproj"/>
+  <Project Path="TriangularLower/TriangularLower.csproj"/>
+  <Project Path="Hourglass/Hourglass.csproj"/>
 </Solution>

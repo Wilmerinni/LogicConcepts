@@ -1,4 +1,4 @@
-namespace LogicConcepts;
+namespace Shared;
 
 public class ConsoleExtencion
 {
