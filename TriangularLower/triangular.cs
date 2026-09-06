@@ -43,7 +43,7 @@ public class Triangular(int n)
                 }
                 else
                 {
-                    Console.Write($"{0,5}");
+                    Console.Write("     ");
                 }
             }
 
