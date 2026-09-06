@@ -1,4 +1,5 @@
-﻿using Shared;
+﻿
+using Shared;
 using TriangularLower;
 
 Console.WriteLine("*** TRIANGULAR INFERIOR DE UNA MATRIZ ***");
@@ -10,7 +11,10 @@ var matrix = new Triangular(n);
 matrix.Fill();
 
 Console.WriteLine("\nMatriz:");
+
 matrix.Show();
 
 Console.WriteLine("\nTriangular inferior:");
+
 matrix.ShowLowerTriangle();
+

@@ -5,12 +5,12 @@ Console.WriteLine("Ingrese orden de la matriz:");
 
 var n = ConsoleExtension.GetInt("");
 
-var matrix = new global::Hourglass.Hourglass(n);
+var hourglass = new Hourglass.Hourglass(n);
 
-matrix.Fill();
+hourglass.Fill();
 
 Console.WriteLine("\nMATRIZ COMPLETA");
-matrix.Show();
+hourglass.Show();
 
 Console.WriteLine("\nRELOJ DE ARENA");
-matrix.ShowHourglass();
+hourglass.ShowHourglass();

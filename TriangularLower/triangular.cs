@@ -1,3 +1,4 @@
+
 namespace TriangularLower;
 
 public class Triangular(int n)

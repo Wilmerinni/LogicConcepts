@@ -12,7 +12,7 @@ public class Hourglass(int n)
         {
             for (int j = 0; j < _matrix.GetLength(1); j++)
             {
-                _matrix[i, j] = 2 * i + j;
+                _matrix[i, j] = (2 * i) + j;
             }
         }
     }
