@@ -1,15 +1,9 @@
 namespace TriangularLower;
 
-public class Matrix
+public class Triangular(int n)
 {
     // Fields
-    private readonly int[,] _matrix;
-
-    // Constructors
-    public Matrix(int n)
-    {
-        _matrix = new int[n, n];
-    }
+    private readonly int[,] _matrix = new int[n, n];
 
     // Public Methods
     public void Fill()
