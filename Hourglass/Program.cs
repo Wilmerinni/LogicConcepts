@@ -5,7 +5,7 @@ Console.WriteLine("Ingrese orden de la matriz:");
 
 var n = ConsoleExtension.GetInt("");
 
-var matrix = new Matrix(n);
+var matrix = new global::Hourglass.Hourglass(n);
 
 matrix.Fill();
 
